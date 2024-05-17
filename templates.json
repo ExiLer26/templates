@@ -1,0 +1,34 @@
+{
+  "remark": "This file is only used for quick deployment.",
+  "languages": [
+    {
+      "label": "Minecraft Console Client",
+      "value": "Minecraft Console Client"
+    },
+    {
+      "label": "简体中文",
+      "value": "zh_cn"
+    }
+  ],
+  "packages": [
+    {
+      "language": "Minecraft Console Client",
+      "description": "[1.8-1.20.x] ",
+      "title": "Minecraft Console Client",
+      "runtime": "bash",
+      "hardware": "RAM 12mb+",
+      "size": "45MB",
+      "remark": "General Console Application",
+      "targetLink": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-264/MinecraftClient-20240415-264-linux-arm",
+      "author": "https://github.com/MCCTeam/Minecraft-Console-Client/releases",
+      "setupInfo": {
+        "type": "General Console Application",
+        "startCommand": "./mc264",
+        "stopCommand": "^C",
+        "updateCommand": "mv MinecraftClient-20240415-264-linux-arm mc264",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    }
+  ]
+}
