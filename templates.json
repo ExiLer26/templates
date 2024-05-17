@@ -2,8 +2,8 @@
   "remark": "This file is only used for quick deployment.",
   "languages": [
     {
-      "label": "English",
-      "value": "en_us"
+      "label": "Minecraft Vanilla",
+      "value": "Minecraft_Vanilla"
     },
     {
       "label": "简体中文",
