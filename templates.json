@@ -23,9 +23,8 @@
       "author": "https://github.com/MCCTeam/Minecraft-Console-Client/releases",
       "setupInfo": {
         "type": "General Console Application",
-        "startCommand": "./mc264",
+        "startCommand": "./MinecraftClient-20240415-264-linux-arm",
         "stopCommand": "^C",
-        "updateCommand": "mv MinecraftClient-20240415-264-linux-arm mc264",
         "ie": "utf-8",
         "oe": "utf-8"
       }
