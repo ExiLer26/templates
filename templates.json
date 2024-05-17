@@ -12,7 +12,7 @@
   ],
   "packages": [
     {
-      "language": "en_us",
+      "language": "Minecraft_Vanilla",
       "description": "[1.8-1.20.x] ",
       "title": "Minecraft Console Client",
       "runtime": "JAVA 8+",
