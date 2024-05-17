@@ -38,7 +38,7 @@
       "hardware": "RAM 25M+",
       "size": "45MB",
       "remark": "Minecraft Java",
-      "targetLink": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-264/MinecraftClient-20240415-264-linux-*",
+      "targetLink": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-264/MinecraftClient-20240415-264-linux-arm",
       "author": "github.com",
       "setupInfo": {
         "type": "minecraft/java",
