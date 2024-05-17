@@ -29,6 +29,25 @@
         "ie": "utf-8",
         "oe": "utf-8"
       }
+    },
+    {
+      "language": "en_us",
+      "description": "Minecraft Console Client",
+      "title": "MCC",
+      "runtime": "bash",
+      "hardware": "RAM 25M+",
+      "size": "45MB",
+      "remark": "Minecraft Forge",
+      "targetLink": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-264/MinecraftClient-20240415-264-linux-arm",
+      "author": "github.com",
+      "setupInfo": {
+        "type": "minecraft/java",
+        "startCommand": "sh ./run.sh",
+        "stopCommand": "stop",
+        "updateCommand": "",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
     }
   ]
 }
