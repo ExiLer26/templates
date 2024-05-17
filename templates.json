@@ -34,7 +34,7 @@
       "language": "en_us",
       "description": "Minecraft Console Client",
       "title": "MCC",
-      "runtime": "bash",
+      "runtime": "Java 8+",
       "hardware": "RAM 25M+",
       "size": "45MB",
       "remark": "Minecraft Forge",
