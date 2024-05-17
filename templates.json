@@ -19,8 +19,8 @@
       "hardware": "RAM 12MB+",
       "size": "45MB",
       "remark": "Minecraft Forge",
-      "targetLink": "wget https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-264/MinecraftClient-20240415-264-linux-arm",
-      "author": "https://github.com/MCCTeam/Minecraft-Console-Client/releases",
+      "targetLink": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-264/MinecraftClient-20240415-264-linux-arm",
+      "author": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-264/MinecraftClient-20240415-264-linux-arm",
       "setupInfo": {
         "type": "minecraft/java/forge",
         "startCommand": "./MinecraftClient-20240415-264-linux-arm",
