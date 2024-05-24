@@ -23,9 +23,9 @@
       "author": "https://www.minecraft.net/en-us/article/minecraft-1122-released",
       "setupInfo": {
         "type": "minecraft/java",
-        "startCommand": "java -Xmx500M -Xmx500M -jar server.jar -nogui",
-        "stopCommand": "stop",
         "updateCommand": "echo eula=true > eula.txt",
+        "startCommand": "java -Xmx500M -Xms500M -jar server.jar -nogui",
+        "stopCommand": "stop",
         "ie": "utf-8",
         "oe": "utf-8"
       }
