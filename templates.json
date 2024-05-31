@@ -38,7 +38,7 @@
       "hardware": "RAM 25MB+",
       "size": "45MB",
       "remark": "MCC",
-      "TargetLink": "wget https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-263/MinecraftClient-20240415-263-linux-arm",
+      "TargetLink": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-263/MinecraftClient-20240415-263-linux-arm",
       "author": "MCC",
       "setupInfo": {
         "type": "General Console Application",
