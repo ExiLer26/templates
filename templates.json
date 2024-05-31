@@ -38,13 +38,13 @@
       "hardware": "RAM 25MB+",
       "size": "45MB",
       "remark": "MCC",
-      "targetLink": "",
+      "updateCommand": "wget https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-263/MinecraftClient-20240415-263-linux-arm",
       "author": "MCC",
       "setupInfo": {
         "type": "General Console Application",
         "startCommand": "./mc263",
         "stopCommand": "^C",
-        "updateCommand": "wget https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-263/MinecraftClient-20240415-263-linux-arm && mv MinecraftClient-20240415-263-linux-arm mc263 && chmod 777 mc263",
+        "updateCommand": "mv MinecraftClient-20240415-263-linux-arm mc263 && chmod 777 mc263",
         "ie": "utf-8",
         "oe": "utf-8"
       }
