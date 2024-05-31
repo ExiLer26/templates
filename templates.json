@@ -35,7 +35,7 @@
       "description": "MCC",
       "title": "Minecraft Console Client",
       "runtime": "bash",
-      "hardware": "RAM 25MB+",
+      "hardware": "RAM 12MB+",
       "size": "45MB",
       "remark": "MCC",
       "targetLink": "",
