@@ -32,7 +32,7 @@
     },
     {
       "language": "mc_bot",
-      "description": "MCC",
+      "description": "Minecraft Console Client",
       "title": "MCC",
       "runtime": "bash",
       "hardware": "RAM 25MB+",
