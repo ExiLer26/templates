@@ -6,7 +6,7 @@
       "value": "en_us"
     },
     {
-      "label": "Minecraft Console Client",
+      "label": "MCC",
       "value": "mc_bot"
     }
   ],
@@ -33,7 +33,7 @@
     {
       "language": "mc_bot",
       "description": "MCC",
-      "title": "MCC",
+      "title": "Minecraft Console Client",
       "runtime": "bash",
       "hardware": "RAM 25MB+",
       "size": "45MB",
