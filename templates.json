@@ -44,7 +44,7 @@
         "type": "General Console Application",
         "startCommand": "./mc263",
         "stopCommand": "^C",
-        "updateCommand": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-263/MinecraftClient-20240415-263-linux-arm & chmod 777 MinecraftClient-20240415-263-linux-arm",
+        "updateCommand": "wget https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-263/MinecraftClient-20240415-263-linux-arm & chmod 777 MinecraftClient-20240415-263-linux-arm",
         "ie": "utf-8",
         "oe": "utf-8"
       }
