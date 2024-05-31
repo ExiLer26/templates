@@ -35,16 +35,16 @@
       "description": "Minecraft Console Client",
       "title": "MCC",
       "runtime": "Java 8+",
-      "hardware": "RAM 25M+",
+      "hardware": "RAM 25MB+",
       "size": "45MB",
       "remark": "Minecraft Java",
-      "targetLink": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-264/MinecraftClient-20240415-264-linux-arm64",
-      "author": "github.com",
+      "targetLink": "",
+      "author": "MCC",
       "setupInfo": {
         "type": "minecraft/java",
-        "startCommand": "run.sh",
-        "stopCommand": "stop",
-        "updateCommand": "",
+        "startCommand": "./*",
+        "stopCommand": "^C",
+        "updateCommand": "wget https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-263/MinecraftClient-20240415-263-linux-arm",
         "ie": "utf-8",
         "oe": "utf-8"
       }
