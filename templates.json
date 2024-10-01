@@ -36,15 +36,15 @@
       "title": "Minecraft Console Client",
       "runtime": "bash",
       "hardware": "RAM 12MB+",
-      "size": "45MB",
+      "size": "7MB",
       "remark": "MCC",
-      "targetLink": "",
-      "author": "MCC",
+      "targetLink": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240906-276/MinecraftClient-20240906-276-linux-arm",
+      "author": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download",
       "setupInfo": {
         "type": "General Console Application",
-        "startCommand": "./MinecraftClient-20240415-263-linux-arm",
+        "startCommand": "sh ./MinecraftClient-20240906-276-linux-arm",
         "stopCommand": "^C",
-        "updateCommand": "wget https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20240415-263/MinecraftClient-20240415-263-linux-arm",
+        "updateCommand": "",
         "ie": "utf-8",
         "oe": "utf-8"
       }
