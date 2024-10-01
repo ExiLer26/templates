@@ -37,8 +37,8 @@
       "runtime": "Java 8+",
       "hardware": "RAM 3GB+",
       "size": "241MB",
-      "remark": "MCC",
-      "targetLink": "https://www.curseforge.com/minecraft/modpacks/seablock-rustic-waters/download/3523519",
+      "remark": "Minecraft forge",
+      "targetLink": "https://mediafilez.forgecdn.net/files/3523/519/SeablockRusticWatersServer1.3.9.zip",
       "author": "minecraftforge.net",
       "setupInfo": {
         "type": "minecraft/java/forge",
