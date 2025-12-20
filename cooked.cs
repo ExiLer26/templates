@@ -50,7 +50,7 @@ if (chestId != -1)
         __apiHandler.LogToConsole("Fazla " + excess.Count + " item geri konuyor...");
         foreach (int e in excess)
         {
-            __apiHandler.PerformInternalCommand("inventory container click " + e + " leftclick");
+            __apiHandler.PerformInternalCommand("inventory container click " + e + " shiftrightclick");
             System.Threading.Thread.Sleep(600);
         }
         System.Threading.Thread.Sleep(2000);
@@ -82,7 +82,7 @@ foreach (var inv in invs_cok1)
 if (chestId_cok1 != -1)
 {
     var items_cok1 = invs_cok1[chestId_cok1].Items;
-    bool foundAnyCookedChicken = false;
+    bool foundAnyCookedChicken = true;
 
     // Tıklanacak slotları tut
     System.Collections.Generic.List<int> slotsToClick = new System.Collections.Generic.List<int>();
@@ -92,8 +92,7 @@ if (chestId_cok1 != -1)
         int slot = item.Key;
 
         // 🔒 81. slot KORUMA ALTINDA
-        if (slot <= 81)
-            continue;
+        if (slot <= 81) continue;
 
         if (item.Value.Type.ToString().ToLower().Contains(target))
         {
